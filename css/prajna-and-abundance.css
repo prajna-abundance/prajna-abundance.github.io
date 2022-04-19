@@ -4294,6 +4294,9 @@ figcaption {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   color: #fff;
   font-weight: 400;
 }
@@ -4552,6 +4555,7 @@ figcaption {
 .project-grid-thirds {
   display: -ms-grid;
   display: grid;
+  width: 100%;
   margin-bottom: 40px;
   grid-auto-columns: 1fr;
   grid-column-gap: 48px;
